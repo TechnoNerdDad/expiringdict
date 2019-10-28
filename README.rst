@@ -90,5 +90,5 @@ pickle :
     cache = ExpiringDict(max_len=100, max_age_seconds=10)
     cache['test'] = 1
     pickled_cache = dill.dumps(cache)
-    unpickled_cache = dill.loads(cache)
+    unpickled_cache = dill.loads(pickled_cache)
     assert unpickled_cache['test'] == 1
