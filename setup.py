@@ -18,7 +18,7 @@ tests_require = [
 ]
 
 setup(name="expiringdict",
-      version="1.1.4",
+      version="2.0.0",
       description="Dictionary with auto-expiring values for caching purposes",
       long_description=long_description,
       author="Anton Efimenko",
